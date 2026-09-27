@@ -1,0 +1,43 @@
+{
+ "version": "2.2.4",
+ "songName": "Rain Clouds (Re-Takeover)",
+ "artist": "Mochoco",
+ "charter": "BlackMaskly",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf-redoki",
+   "girlfriend": "gf-redoki",
+   "opponent": "sayori-redoki",
+   "opponentVocals": [
+    "sayori"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "clubRoom",
+  "noteStyle": "doki",
+  "ratings": {
+   "easy": 2,
+   "normal": 3,
+   "hard": 4
+  },
+  "album": "sayori",
+  "stickerPack": "bonus-tutorial"
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.5",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 110,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

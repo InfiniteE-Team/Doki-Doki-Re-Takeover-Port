@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="table.png">
+	<!-- Created with Adobe Animate version 22.0.4.185 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="RainTable0000" x="3" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0001" x="3" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0002" x="3" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0003" x="3" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0004" x="3" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0005" x="3" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0006" x="3" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0007" x="1286" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0008" x="1286" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0009" x="1286" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0010" x="1286" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0011" x="1286" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0012" x="1286" y="3" width="1280" height="720"/>
+	<SubTexture name="RainTable0013" x="1286" y="3" width="1280" height="720"/>
+	<SubTexture name="SadTable0000" x="3" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0001" x="3" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0002" x="3" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0003" x="3" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0004" x="3" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0005" x="3" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0006" x="3" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0007" x="1286" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0008" x="1286" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0009" x="1286" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0010" x="1286" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0011" x="1286" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0012" x="1286" y="726" width="1280" height="720"/>
+	<SubTexture name="SadTable0013" x="1286" y="726" width="1280" height="720"/>
+</TextureAtlas>

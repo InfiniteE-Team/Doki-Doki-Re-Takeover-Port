@@ -1,0 +1,98 @@
+{
+    "name": "clubRoom",
+    "defaultZoom": 0.82,
+    "hideGF": false,
+    "elements": [
+        {
+            "type": "sprite",
+            "props": {
+                "name": "stageBack",
+                "path": "bg",
+                "scale": [
+                    1.54,
+                    1.54
+                ],
+                "position": [
+                    -700,
+                    -1050
+                ],
+                "antialiasing": true
+            }
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "posters",
+                "path": "poster-sayo",
+                "scale": [
+                    1.54,
+                    1.54
+                ],
+                "position": [
+                    -700,
+                    -1050
+                ],
+                "antialiasing": true
+            }
+        },
+        {
+            "type": "character",
+            "id": "gf-redoki",
+            "position": [
+                890,
+                200
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "character",
+            "id": "sayori-redoki",
+            "position": [
+                348,
+                70
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "character",
+            "id": "bf-redoki",
+            "position": [
+                1296.5,
+                189
+            ],
+            "camPos": [
+                0,
+                0
+            ]
+        },
+        {
+            "type": "sprite",
+            "props": {
+                "name": "stageColoring",
+                "path": "bglight-add",
+                "blend": "add",
+                "position": [
+                    -700,
+                    -1050
+                ],
+                "scale": [
+                    1.54,
+                    1.54
+                ],
+                "scrollFactor": [
+                    1,
+                    1
+                ],
+                "antialiasing": true,
+                "alpha": 0.6,
+                "flipX": false
+            }
+        }
+    ]
+}

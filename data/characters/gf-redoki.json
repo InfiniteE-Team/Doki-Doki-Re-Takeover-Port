@@ -1,0 +1,119 @@
+{
+	"meta": {
+		"isPlayer": false
+	},
+	"gameplay": {
+		"position": [
+			0.0,
+			0.0
+		],
+		"cameraOffset": [
+			0.0,
+			0.0
+		],
+		"idleAfterSing": true,
+		"singTime": 2.0,
+		"specialAnims": {
+			"countdownThree": {
+				"anim": "countdownThree",
+				"force": true,
+				"interrupt": true
+			},
+			"countdownTwo": {
+				"anim": "countdownTwo",
+				"force": true,
+				"interrupt": true
+			},
+			"countdownOne": {
+				"anim": "countdownOne",
+				"force": true,
+				"interrupt": true
+			},
+			"countdownGo": {
+				"anim": "countdownGo",
+				"force": true,
+				"interrupt": false
+			}
+		}
+	},
+	"render": {
+		"layers": [
+			{
+				"name": "gf",
+				"path": "gf-redoki",
+				"antialiasing": true,
+				"scale": [
+					1.0,
+					1.0
+				],
+				"anims": [
+					{
+						"name": "idle",
+						"prefix": "Idle",
+						"looped": false
+					},
+					{
+						"name": "countdownThree",
+						"prefix": "Three",
+						"looped": false
+					},
+					{
+						"name": "countdownTwo",
+						"prefix": "Two",
+						"looped": false
+					},
+					{
+						"name": "countdownOne",
+						"prefix": "One",
+						"looped": false
+					},
+					{
+						"name": "countdownGo",
+						"prefix": "Go",
+						"looped": false
+					}
+				]
+			}
+		]
+	},
+	"icon": {
+		"props": {
+			"name": "gf-icon",
+			"path": "gf",
+			"flipX": false,
+			"frameScale": [
+				150,
+				150
+			],
+			"firstAnim": "normal",
+			"anims": [
+				{
+					"name": "losing",
+					"indices": [
+						0
+					],
+					"offsets": [
+						0,
+						0
+					],
+					"framerate": 24,
+					"looped": false
+				},
+				{
+					"name": "normal",
+					"indices": [
+						1
+					],
+					"offsets": [
+						0,
+						0
+					],
+					"framerate": 24,
+					"looped": false
+				}
+			]
+		},
+		"bumpInBeats": true,
+		"stepTempo": 2
+	}
+}

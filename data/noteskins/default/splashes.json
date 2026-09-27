@@ -1,0 +1,179 @@
+{
+    "props": {
+        "name": "Splash",
+        "path": "doki",
+        "position": [
+            -40,
+            -50
+        ],
+        "scale": [
+            1,
+            1
+        ],
+        "alpha": 1,
+        "visible": true,
+        "flipX": false,
+        "flipY": false,
+        "angle": 0,
+        "active": true,
+        "scrollFactor": [
+            1,
+            1
+        ],
+        "antialiasing": true,
+        "anims": [
+            {
+                "name": "note0-Splash0",
+                "prefix": "note splash purple",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -55,
+                    -60
+                ]
+            },
+            {
+                "name": "note0-Splash1",
+                "prefix": "note splash purple",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -55,
+                    -60
+                ]
+            },
+            {
+                "name": "note1-Splash0",
+                "prefix": "note splash blue",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -55,
+                    -60
+                ]
+            },
+            {
+                "name": "note1-Splash1",
+                "prefix": "note splash blue",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -55,
+                    -60
+                ]
+            },
+            {
+                "name": "note2-Splash0",
+                "prefix": "note splash green",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -55,
+                    -60
+                ]
+            },
+            {
+                "name": "note2-Splash1",
+                "prefix": "note splash green",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -55,
+                    -60
+                ]
+            },
+            {
+                "name": "note3-Splash0",
+                "prefix": "note splash red",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -55,
+                    -60
+                ]
+            },
+            {
+                "name": "note3-Splash1",
+                "prefix": "note splash red",
+                "indices": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -55,
+                    -60
+                ]
+            }
+        ]
+    }
+}

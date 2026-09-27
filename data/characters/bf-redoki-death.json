@@ -1,0 +1,77 @@
+{
+    "meta": {
+        "isPlayer": true
+    },
+    "gameplay": {
+        "position": [
+            750,
+            0
+        ],
+        "cameraOffset": [
+            0,
+            0
+        ],
+        "death": {
+            "character": "bf-death",
+            "sound": "default/fnf_loss_sfx",
+            "music": "default/gameOver",
+            "endSound": "default/gameOverEnd"
+        },
+        "idleAfterSing": true
+    },
+    "render": {
+        "layers": [
+            {
+                "name": "char",
+                "path": "dokiGameOver",
+                "position": [
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "alpha": 1.0,
+                "visible": true,
+                "flipX": false,
+                "flipY": false,
+                "antialiasing": true,
+                "firstAnim": "firstDeath",
+                "anims": [
+                    {
+                        "name": "firstDeath",
+                        "prefix": "DokiGameOverIntro",
+                        "offsets": [
+                            163,
+                            76
+                        ],
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "deathLoop",
+                        "prefix": "DokiGameOverLoop",
+                        "offsets": [
+                            187,
+                            90
+                        ],
+                        "framerate": 24,
+                        "looped": true
+                    },
+                    {
+                        "name": "deathConfirm",
+                        "prefix": "DokiGameOverConfirm",
+                        "offsets": [
+                            167,
+                            74
+                        ],
+                        "framerate": 24,
+                        "looped": false
+                    }
+                ]
+            }
+        ]
+    },
+    "icon": null
+}

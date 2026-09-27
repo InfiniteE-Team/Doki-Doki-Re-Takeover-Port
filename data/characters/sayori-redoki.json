@@ -1,0 +1,116 @@
+{
+    "meta": {
+        "isPlayer": false
+    },
+    "gameplay": {
+        "position": [
+            0,
+            0
+        ],
+        "cameraOffset": [
+            200,
+            -100
+        ],
+        "idleAfterSing": true,
+        "singTime": 1
+    },
+    "render": {
+        "layers": [
+            {
+                "name": "char",
+                "path": "sayori-redoki",
+                "position": [
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "alpha": 1.0,
+                "visible": true,
+                "flipX": false,
+                "flipY": false,
+                "antialiasing": true,
+                "anims": [
+                    {
+                        "name": "idle",
+                        "prefix": "Idle"
+                    },
+                    {
+                        "name": "singLEFT",
+                        "prefix": "Left"
+                    },
+                    {
+                        "name": "singDOWN",
+                        "prefix": "Down"
+                    },
+                    {
+                        "name": "singUP",
+                        "prefix": "Up"
+                    },
+                    {
+                        "name": "singRIGHT",
+                        "prefix": "Right"
+                    },
+                    {
+                        "name": "nara",
+                        "prefix": "Nara"
+                    }
+                ]
+            }
+        ]
+    },
+    "icon": {
+        "props": {
+            "name": "sayori-icon",
+            "path": "icon-sayori",
+            "flipX": false,
+            "frameScale": [
+                150,
+                150
+            ],
+            "firstAnim": "normal",
+            "anims": [
+                {
+                    "name": "losing",
+                    "indices": [
+                        1
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "framerate": 24,
+                    "looped": false
+                },
+                {
+                    "name": "normal",
+                    "indices": [
+                        0
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "framerate": 24,
+                    "looped": false
+                },
+                {
+                    "name": "winning",
+                    "indices": [
+                        2
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "framerate": 24,
+                    "looped": false
+                }
+            ]
+        },
+        "bumpInBeats": true,
+        "stepTempo": 2
+    }
+}

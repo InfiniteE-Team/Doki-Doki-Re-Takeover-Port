@@ -1,0 +1,245 @@
+{
+    "colorPalette": {
+        "note0-startHold": [
+            "0xFFB36FE8",
+            "0xFFFFFFFF",
+            "0xFF6B3FA0"
+        ],
+        "note0-loopHold": [
+            "0xFFB36FE8",
+            "0xFFFFFFFF",
+            "0xFF6B3FA0"
+        ],
+        "note0-endHold": [
+            "0xFFB36FE8",
+            "0xFFFFFFFF",
+            "0xFF6B3FA0"
+        ],
+        "note1-startHold": [
+            "0xFF4ACFED",
+            "0xFFFFFFFF",
+            "0xFF2A6B9E"
+        ],
+        "note1-loopHold": [
+            "0xFF4ACFED",
+            "0xFFFFFFFF",
+            "0xFF2A6B9E"
+        ],
+        "note1-endHold": [
+            "0xFF4ACFED",
+            "0xFFFFFFFF",
+            "0xFF2A6B9E"
+        ],
+        "note2-startHold": [
+            "0xFF5AE05A",
+            "0xFFFFFFFF",
+            "0xFF2A7A3A"
+        ],
+        "note2-loopHold": [
+            "0xFF5AE05A",
+            "0xFFFFFFFF",
+            "0xFF2A7A3A"
+        ],
+        "note2-endHold": [
+            "0xFF5AE05A",
+            "0xFFFFFFFF",
+            "0xFF2A7A3A"
+        ],
+        "note3-startHold": [
+            "0xFFEF6BAF",
+            "0xFFFFFFFF",
+            "0xFF8A2A5A"
+        ],
+        "note3-loopHold": [
+            "0xFFEF6BAF",
+            "0xFFFFFFFF",
+            "0xFF8A2A5A"
+        ],
+        "note3-endHold": [
+            "0xFFEF6BAF",
+            "0xFFFFFFFF",
+            "0xFF8A2A5A"
+        ]
+    },
+    "props": {
+        "name": "HoldSplash",
+        "path": "default",
+        "position": [
+            10,
+            30
+        ],
+        "scale": [
+            1,
+            1
+        ],
+        "alpha": 1,
+        "visible": true,
+        "flipX": false,
+        "flipY": false,
+        "angle": 0,
+        "active": true,
+        "scrollFactor": [
+            1,
+            1
+        ],
+        "antialiasing": true,
+        "anims": [
+            {
+                "name": "note0-startHold",
+                "prefix": "start",
+                "indices": [],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    30,
+                    25
+                ]
+            },
+            {
+                "name": "note0-loopHold",
+                "prefix": "loop",
+                "indices": [],
+                "framerate": 24,
+                "looped": true,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    15,
+                    15
+                ]
+            },
+            {
+                "name": "note0-endHold",
+                "prefix": "end",
+                "indices": [],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -30,
+                    -15
+                ]
+            },
+            {
+                "name": "note1-startHold",
+                "prefix": "start",
+                "indices": [],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    30,
+                    25
+                ]
+            },
+            {
+                "name": "note1-loopHold",
+                "prefix": "loop",
+                "indices": [],
+                "framerate": 24,
+                "looped": true,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    15,
+                    15
+                ]
+            },
+            {
+                "name": "note1-endHold",
+                "prefix": "end",
+                "indices": [],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -30,
+                    -15
+                ]
+            },
+            {
+                "name": "note2-startHold",
+                "prefix": "start",
+                "indices": [],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    30,
+                    25
+                ]
+            },
+            {
+                "name": "note2-loopHold",
+                "prefix": "loop",
+                "indices": [],
+                "framerate": 24,
+                "looped": true,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    15,
+                    15
+                ]
+            },
+            {
+                "name": "note2-endHold",
+                "prefix": "end",
+                "indices": [],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -30,
+                    -15
+                ]
+            },
+            {
+                "name": "note3-startHold",
+                "prefix": "start",
+                "indices": [],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    30,
+                    25
+                ]
+            },
+            {
+                "name": "note3-loopHold",
+                "prefix": "loop",
+                "indices": [],
+                "framerate": 24,
+                "looped": true,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    15,
+                    15
+                ]
+            },
+            {
+                "name": "note3-endHold",
+                "prefix": "end",
+                "indices": [],
+                "framerate": 24,
+                "looped": false,
+                "flipX": false,
+                "flipY": false,
+                "offsets": [
+                    -30,
+                    -15
+                ]
+            }
+        ]
+    }
+}

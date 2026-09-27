@@ -1,0 +1,150 @@
+var ratingPool = [];
+var numberPool = [];
+var comboPool = [];
+
+function onDestroy() {
+	for (sprite in ratingPool) {
+		remove(sprite);
+		sprite.destroy();
+	}
+	for (sprite in numberPool) {
+		remove(sprite);
+		sprite.destroy();
+	}
+	for (sprite in comboPool) {
+		remove(sprite);
+		sprite.destroy();
+	}
+	ratingPool = [];
+	comboPool = [];
+	numberPool = [];
+}
+
+var PIXEL_ZOOM = 6;
+var isPixel = false;
+
+function onNoteHitPlayer() {
+	onRatingPopup(playStateConfig.rating, playStateConfig.combo);
+}
+
+function onRatingPopup(ratingName, combo) {
+	var pixelPart1 = 'normal/score/';
+	var pixelPart2 = '';
+
+	if (isPixel) {
+		pixelPart1 = 'pixel/score/';
+		pixelPart2 = '-pixel';
+	}
+
+	_killPoolInstant(ratingPool);
+	_killPoolInstant(numberPool);
+
+	var ratingSprite = _getFromPool(ratingPool);
+	ratingSprite.alpha = 1;
+	ratingSprite.visible = true;
+
+	ratingSprite.loadGraphic(Paths.getPath('game/hud/' + pixelPart1 + ratingName + pixelPart2, 'image'));
+
+	ratingSprite.x = FlxG.width * 0.55 - 160;
+	ratingSprite.y = FlxG.height * 0.5 - 90;
+
+	if (!isPixel) {
+		ratingSprite.setGraphicSize(Std.int(ratingSprite.width * 0.7));
+		ratingSprite.antialiasing = SaveData.data.antialiasing;
+	} else {
+		ratingSprite.setGraphicSize(Std.int(ratingSprite.width * PIXEL_ZOOM * 0.7));
+		ratingSprite.antialiasing = false;
+	}
+	ratingSprite.updateHitbox();
+
+	var sx = ratingSprite.scale.x * 1.15;
+	var sy = ratingSprite.scale.y * 1.15;
+	FlxTween.tween(ratingSprite.scale, {x: sx, y: sy}, 0.07, {
+		ease: FlxEase.quadOut,
+		onComplete: function(_) {
+			FlxTween.tween(ratingSprite.scale, {x: ratingSprite.scale.x / 1.15, y: ratingSprite.scale.y / 1.15}, 0.10, {ease: FlxEase.quadIn});
+		}
+	});
+
+	FlxTween.tween(ratingSprite, {alpha: 0}, 0.20, {
+		startDelay: 0.45,
+		ease: FlxEase.quadIn,
+		onComplete: function(_) {
+			ratingSprite.kill();
+		}
+	});
+
+	if (combo >= 10)
+		_showComboNumbers(combo, pixelPart1, pixelPart2);
+}
+
+function _showComboNumbers(combo, pixelPart1, pixelPart2) {
+	var comboStr = StringTools.lpad(Std.string(combo), "0", 3);
+	var separatedScore = [];
+
+	for (i in 0...comboStr.length)
+		separatedScore.push(Std.parseInt(comboStr.charAt(i)));
+
+	var daLoop = 0;
+	for (i in separatedScore) {
+		var numScore = _getFromPool(numberPool);
+		numScore.alpha = 1;
+		numScore.visible = true;
+		numScore.loadGraphic(Paths.getPath('game/hud/' + pixelPart1 + 'nums/digit-' + Std.int(i) + pixelPart2, 'image'));
+
+		numScore.x = FlxG.width * 0.55 + (36 * daLoop) - 110;
+		numScore.y = FlxG.height * 0.5 + 20;
+
+		if (!isPixel) {
+			numScore.antialiasing = SaveData.data.antialiasing;
+			numScore.setGraphicSize(Std.int(numScore.width * 0.38));
+		} else {
+			numScore.setGraphicSize(Std.int(numScore.width * 5.4));
+		}
+		numScore.updateHitbox();
+
+		FlxTween.tween(numScore, {"scale.x": numScore.scale.x * 1.15, "scale.y": numScore.scale.y * 1.15}, 0.07, {
+			ease: FlxEase.quadOut,
+			onComplete: function(_) {
+				FlxTween.tween(numScore, {"scale.x": numScore.scale.x / 1.15, "scale.y": numScore.scale.y / 1.15}, 0.10, {
+					ease: FlxEase.quadIn
+				});
+			}
+		});
+		FlxTween.tween(numScore, {alpha: 0}, 0.20, {
+			startDelay: 0.45,
+			ease: FlxEase.quadIn,
+			onComplete: function(_) {
+				numScore.kill();
+			}
+		});
+		daLoop++;
+	}
+}
+
+function _killPoolInstant(pool) {
+	for (sprite in pool) {
+		if (sprite.exists && sprite.alive) {
+			FlxTween.cancelTweensOf(sprite);
+			FlxTween.cancelTweensOf(sprite.scale);
+			sprite.alpha = 0;
+			sprite.kill();
+		}
+	}
+}
+
+function _getFromPool(pool) {
+	for (sprite in pool) {
+		if (!sprite.exists) {
+			sprite.revive();
+			return sprite;
+		}
+	}
+
+	var newSprite = new FunkinSprite(0, 0, true);
+	newSprite.cameras = [camHUD];
+	newSprite.scrollFactor.set(0, 0);
+	pool.push(newSprite);
+	add(newSprite);
+	return newSprite;
+}

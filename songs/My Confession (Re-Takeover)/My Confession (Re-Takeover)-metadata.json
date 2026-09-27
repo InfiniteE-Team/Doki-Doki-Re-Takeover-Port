@@ -1,0 +1,56 @@
+{
+ "version": "2.2.4",
+ "songName": "My Confession (Re-Takeover)",
+ "artist": "Noichi",
+ "charter": "BlackMaskly",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "easy",
+   "normal",
+   "hard"
+  ],
+  "characters": {
+   "player": "bf-redoki",
+   "girlfriend": "gf-redoki",
+   "opponent": "sayori-redoki",
+   "opponentVocals": [
+    "sayori"
+   ],
+   "playerVocals": [
+    "bf"
+   ]
+  },
+  "stage": "clubRoom",
+  "noteStyle": "doki",
+  "ratings": {
+   "easy": 3,
+   "normal": 4,
+   "hard": 6
+  },
+  "album": "sayori",
+  "stickerPack": "bonus-tutorial"
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.6",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 170,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 76235.2942,
+   "b": 216,
+   "bpm": 42.5,
+   "n": 1,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 77647.0589,
+   "b": 217,
+   "bpm": 170,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

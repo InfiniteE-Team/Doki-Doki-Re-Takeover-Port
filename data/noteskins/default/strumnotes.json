@@ -1,0 +1,289 @@
+{
+  "author": "ninjamuffin99",
+  "description": "Skin default FNF",
+  "colorPalette": {
+    "note0-Hold": [
+      "0xFFB36FE8",
+      "0xFFFFFFFF",
+      "0xFF6B3FA0"
+    ],
+    "note0-HoldEnd": [
+      "0xFFB36FE8",
+      "0xFFFFFFFF",
+      "0xFF6B3FA0"
+    ],
+    "note1-Hold": [
+      "0xFF4ACFED",
+      "0xFFFFFFFF",
+      "0xFF2A6B9E"
+    ],
+    "note1-HoldEnd": [
+      "0xFF4ACFED",
+      "0xFFFFFFFF",
+      "0xFF2A6B9E"
+    ],
+    "note2-Hold": [
+      "0xFF5AE05A",
+      "0xFFFFFFFF",
+      "0xFF2A7A3A"
+    ],
+    "note2-HoldEnd": [
+      "0xFF5AE05A",
+      "0xFFFFFFFF",
+      "0xFF2A7A3A"
+    ],
+    "note3-Hold": [
+      "0xFFEF6BAF",
+      "0xFFFFFFFF",
+      "0xFF8A2A5A"
+    ],
+    "note3-HoldEnd": [
+      "0xFFEF6BAF",
+      "0xFFFFFFFF",
+      "0xFF8A2A5A"
+    ]
+  },
+  "props": {
+    "name": "StrumNotes",
+    "path": "noteStrumline",
+    "position": [
+      0,
+      0
+    ],
+    "scale": [
+      0.7,
+      0.7
+    ],
+    "antialiasing": true,
+    "anims": [
+      {
+        "name": "note0-Scroll",
+        "prefix": "noteLeft",
+        "filePath": "notes",
+        "framerate": 24,
+        "offsets": [
+          0,
+          5
+        ]
+      },
+      {
+        "name": "note1-Scroll",
+        "prefix": "noteDown",
+        "filePath": "notes",
+        "framerate": 24,
+        "offsets": [
+          0,
+          5
+        ]
+      },
+      {
+        "name": "note2-Scroll",
+        "prefix": "noteUp",
+        "filePath": "notes",
+        "framerate": 24,
+        "offsets": [
+          0,
+          5
+        ]
+      },
+      {
+        "name": "note3-Scroll",
+        "prefix": "noteRight",
+        "filePath": "notes",
+        "framerate": 24,
+        "offsets": [
+          0,
+          5
+        ]
+      },
+      {
+        "name": "note0-Hold",
+        "filePath": "default",
+        "prefix": "purple hold piece",
+        "framerate": 24,
+        "offsets": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "note1-Hold",
+        "filePath": "default",
+        "prefix": "blue hold piece",
+        "framerate": 24,
+        "offsets": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "note2-Hold",
+        "filePath": "default",
+        "prefix": "green hold piece",
+        "framerate": 24,
+        "offsets": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "note3-Hold",
+        "filePath": "default",
+        "prefix": "red hold piece",
+        "framerate": 24,
+        "offsets": [
+          0,
+          0
+        ]
+      },
+      {
+        "name": "note0-HoldEnd",
+        "filePath": "default",
+        "prefix": "purple hold end",
+        "framerate": 24,
+        "offsets": [
+          0,
+          -2
+        ]
+      },
+      {
+        "name": "note1-HoldEnd",
+        "filePath": "default",
+        "prefix": "blue hold end",
+        "framerate": 24,
+        "offsets": [
+          0,
+          -2
+        ]
+      },
+      {
+        "name": "note2-HoldEnd",
+        "filePath": "default",
+        "prefix": "green hold end",
+        "framerate": 24,
+        "offsets": [
+          0,
+          -2
+        ]
+      },
+      {
+        "name": "note3-HoldEnd",
+        "filePath": "default",
+        "prefix": "red hold end",
+        "framerate": 24,
+        "offsets": [
+          0,
+          -2
+        ]
+      },
+      {
+        "name": "static0",
+        "prefix": "staticLeft",
+        "framerate": 24,
+        "offsets": [
+          -28,
+          -35
+        ]
+      },
+      {
+        "name": "static1",
+        "prefix": "staticDown",
+        "framerate": 24,
+        "offsets": [
+          -28,
+          -35
+        ]
+      },
+      {
+        "name": "static2",
+        "prefix": "staticUp",
+        "framerate": 24,
+        "offsets": [
+          -28,
+          -35
+        ]
+      },
+      {
+        "name": "static3",
+        "prefix": "staticRight",
+        "framerate": 24,
+        "offsets": [
+          -28,
+          -35
+        ]
+      },
+      {
+        "name": "press0",
+        "prefix": "pressLeft",
+        "framerate": 24,
+        "offsets": [
+          0,
+          -5
+        ]
+      },
+      {
+        "name": "press1",
+        "prefix": "pressDown",
+        "framerate": 24,
+        "offsets": [
+          0,
+          -5
+        ]
+      },
+      {
+        "name": "press2",
+        "prefix": "pressUp",
+        "framerate": 24,
+        "offsets": [
+          0,
+          -5
+        ]
+      },
+      {
+        "name": "press3",
+        "prefix": "pressRight",
+        "framerate": 24,
+        "offsets": [
+          0,
+          -5
+        ]
+      },
+      {
+        "name": "confirm0",
+        "prefix": "confirmLeft",
+        "framerate": 24,
+        "offsets": [
+          -28,
+          -34
+        ]
+      },
+      {
+        "name": "confirm1",
+        "prefix": "confirmDown",
+        "framerate": 24,
+        "offsets": [
+          -28,
+          -34
+        ]
+      },
+      {
+        "name": "confirm2",
+        "prefix": "confirmUp",
+        "framerate": 24,
+        "offsets": [
+          -28,
+          -34
+        ]
+      },
+      {
+        "name": "confirm3",
+        "prefix": "confirmRight",
+        "framerate": 24,
+        "offsets": [
+          -28,
+          -34
+        ]
+      }
+    ]
+  }
+}

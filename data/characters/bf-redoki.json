@@ -1,0 +1,156 @@
+{
+    "meta": {
+        "isPlayer": true
+    },
+    "gameplay": {
+        "position": [
+            13,
+            4
+        ],
+        "cameraOffset": [
+            -230,
+            -70
+        ],
+        "death": {
+            "character": "bf-redoki-death",
+            "sound": "doki/fnf_loss_sfx-doki",
+            "music": "doki/gameOver-doki",
+            "endSound": "doki/gameOverEnd-doki"
+        },
+        "idleAfterSing": true,
+        "singTime": 2
+    },
+    "render": {
+        "layers": [
+            {
+                "name": "char",
+                "path": "bf-redoki",
+                "position": [
+                    0,
+                    0
+                ],
+                "scale": [
+                    1,
+                    1
+                ],
+                "alpha": 1.0,
+                "visible": true,
+                "flipX": false,
+                "flipY": false,
+                "antialiasing": true,
+                "anims": [
+                    {
+                        "name": "idle",
+                        "prefix": "Idle",
+                        "offsets": [
+                            0,
+                            0
+                        ],
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "singLEFT",
+                        "prefix": "Left",
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "singLEFTmiss",
+                        "prefix": "Left Miss",
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "singRIGHT",
+                        "prefix": "Right",
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "singRIGHTmiss",
+                        "prefix": "Right Miss",
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "singUP",
+                        "prefix": "Up",
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "singUPmiss",
+                        "prefix": "Up Miss",
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "singDOWN",
+                        "prefix": "Down",
+                        "framerate": 24,
+                        "looped": false
+                    },
+                    {
+                        "name": "singDOWNmiss",
+                        "prefix": "Down Miss",
+                        "framerate": 24,
+                        "looped": false
+                    }
+                ]
+            }
+        ]
+    },
+    "icon": {
+        "props": {
+            "name": "bf-icon",
+            "path": "icon-bf-doki",
+            "flipX": false,
+            "frameScale": [
+                150,
+                150
+            ],
+            "firstAnim": "normal",
+            "anims": [
+                {
+                    "name": "losing",
+                    "indices": [
+                        1
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "framerate": 24,
+                    "looped": false
+                },
+                {
+                    "name": "normal",
+                    "indices": [
+                        0
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "framerate": 24,
+                    "looped": false
+                },
+                {
+                    "name": "winning",
+                    "indices": [
+                        2
+                    ],
+                    "offsets": [
+                        0,
+                        0
+                    ],
+                    "framerate": 24,
+                    "looped": false
+                }
+            ]
+        },
+        "bumpInBeats": true,
+        "stepTempo": 2
+    }
+}
