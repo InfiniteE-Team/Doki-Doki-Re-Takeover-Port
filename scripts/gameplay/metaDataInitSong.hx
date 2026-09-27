@@ -67,6 +67,10 @@ function cleanUp():Void {
 	metaArtist = null;
 }
 
+function onDestroy() {
+	cleanUp();
+}
+
 function onStepHit(step:Int) {
     switch(step) {
         case 48:

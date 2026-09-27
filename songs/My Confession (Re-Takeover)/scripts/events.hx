@@ -5,7 +5,7 @@ var particleGroup:FlxTypedGroup<FunkinSprite>;
 
 function postCreate() {
 	cameraController.defaultZoom = 0.53;
-	cameraController.moveCameraTo(cameraController.camPoint.x + 1100, cameraController.camPoint.y + 410);
+	cameraController.moveCameraTo(1100, 410);
 	cameraController.isLock = true;
 
 	if (particleGroup == null) {
@@ -70,33 +70,17 @@ function onStepHit(step:Int) {
 		case 630:
 			funnybubbles = true;
 		case 864:
-            funnybubbles = false;
+			funnybubbles = false;
 			endBubblesFast();
-        case 1130:
-            cameraController.moveCameraTo(1100, 410);
+		case 1130:
+			cameraController.moveCameraTo(1100, 410);
 			cameraController.isLock = true;
 			cameraController.defaultZoom = 0.8;
-        case 1280:
+		case 1280:
 			FlxTween.tween(cameraController, {defaultZoom: 0.53}, 6);
-        case 1392:
+		case 1392:
 			FlxTween.tween(cameraController, {defaultZoom: 0.9}, 1.2, {ease: FlxEase.cubeInOut});
 	}
-}
-
-function onResume():Void {
-	FlxTween.globalManager.forEach((tween:FlxTween) -> {
-		if (!tween.active) {
-			tween.active = true;
-		}
-	});
-}
-
-function onPause():Void {
-	FlxTween.globalManager.forEach((tween:FlxTween) -> {
-		if (tween.active) {
-			tween.active = false;
-		}
-	});
 }
 
 function onDestroy():Void {
@@ -112,6 +96,7 @@ function endBubblesFast() {
 	for (particle in particleGroup) {
 		if (particle != null) {
 			FlxTween.cancelTweensOf(particle);
+
 			particle?.kill();
 			particleGroup.remove(particle);
 			particle = null;
