@@ -8,14 +8,14 @@
             0
         ],
         "cameraOffset": [
-            0,
-            0
+            900,
+            170
         ],
         "death": {
-            "character": "bf-death",
-            "sound": "default/fnf_loss_sfx",
-            "music": "default/gameOver",
-            "endSound": "default/gameOverEnd"
+            "character": "bf-redoki-death",
+            "sound": "doki/fnf_loss_sfx-doki",
+            "music": "doki/gameOver-doki",
+            "endSound": "doki/gameOverEnd-doki"
         },
         "idleAfterSing": true
     },
