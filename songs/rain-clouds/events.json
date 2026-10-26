@@ -1,0 +1,1595 @@
+{
+	"events": [
+		{
+			"arguments": {
+				"showMetadata": true
+			},
+			"name": "metadataDisplay",
+			"time": 0
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": 60,
+					"duration": 1,
+					"y": -60,
+					"char": -1,
+					"ease": "INSTANT",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": 60,
+				"y": -60,
+				"duration": 1,
+				"char": "",
+				"ease": "INSTANT"
+			},
+			"name": "Camera Follow",
+			"time": 0
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.3,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.3
+			},
+			"name": "Zoom Camera",
+			"time": 0
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -70,
+					"duration": 15,
+					"y": 540,
+					"char": -1,
+					"ease": "smootherStep",
+					"easeDir": "InOut"
+				},
+				"vsKind": "FocusCamera",
+				"x": -70,
+				"y": 540,
+				"duration": 15,
+				"char": "",
+				"ease": "smootherStepInOut"
+			},
+			"name": "Camera Follow",
+			"time": 136.363636363636
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": 890,
+					"duration": 4,
+					"y": 190,
+					"char": 0,
+					"ease": "INSTANT",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": 890,
+				"y": 190,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "INSTANT"
+			},
+			"name": "Camera Follow",
+			"time": 2181.81818181818
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": 670,
+					"duration": 15,
+					"y": -400,
+					"char": 0,
+					"ease": "smootherStep",
+					"easeDir": "InOut"
+				},
+				"vsKind": "FocusCamera",
+				"x": 670,
+				"y": -400,
+				"duration": 15,
+				"char": "bf-redoki",
+				"ease": "smootherStepInOut"
+			},
+			"name": "Camera Follow",
+			"time": 2318.18181818182
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -240,
+					"duration": 4,
+					"y": -590,
+					"char": 0,
+					"ease": "INSTANT",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": -240,
+				"y": -590,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "INSTANT"
+			},
+			"name": "Camera Follow",
+			"time": 4363.63636363636
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -240,
+					"duration": 15,
+					"y": -420,
+					"char": 0,
+					"ease": "smootherStep",
+					"easeDir": "InOut"
+				},
+				"vsKind": "FocusCamera",
+				"x": -240,
+				"y": -420,
+				"duration": 15,
+				"char": "bf-redoki",
+				"ease": "smootherStepInOut"
+			},
+			"name": "Camera Follow",
+			"time": 4500
+		},
+		{
+			"arguments": {
+				"showMetadata": false
+			},
+			"name": "metadataDisplay",
+			"time": 5454.54545454545
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -240,
+					"duration": 16,
+					"y": 0,
+					"char": 0,
+					"ease": "smootherStep",
+					"easeDir": "InOut"
+				},
+				"vsKind": "FocusCamera",
+				"x": -240,
+				"y": 0,
+				"duration": 16,
+				"char": "bf-redoki",
+				"ease": "smootherStepInOut"
+			},
+			"name": "Camera Follow",
+			"time": 6545.45454545454
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 16,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "smoothStep",
+					"zoom": 0.9,
+					"easeDir": "Out",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 16,
+				"ease": "smoothStepOut",
+				"mode": "direct",
+				"zoom": 0.9
+			},
+			"name": "Zoom Camera",
+			"time": 6545.45454545454
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"rate": 1,
+					"offset": 0,
+					"intensity": 0.6
+				},
+				"vsKind": "SetCameraBop",
+				"intensity": 0.6,
+				"rate": 1
+			},
+			"name": "Camera Bop",
+			"time": 8590.90909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 1
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 8727.27272727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 0
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 13090.9090909091
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 1
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 17454.5454545455
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 0
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 21818.1818181818
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 1
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 26181.8181818182
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 0
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 30545.4545454545
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -40,
+					"duration": 4,
+					"y": -90,
+					"char": 2,
+					"ease": "CLASSIC",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": -40,
+				"y": -90,
+				"duration": 4,
+				"char": "gf-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 34909.0909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"ease": "smoothStep",
+					"zoom": 0.9,
+					"easeDir": "Out",
+					"mode": "stage"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "smoothStepOut",
+				"mode": "stage",
+				"zoom": 0.9
+			},
+			"name": "Zoom Camera",
+			"time": 34909.0909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -340,
+					"duration": 1,
+					"y": -60,
+					"char": 2,
+					"ease": "linear",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": -340,
+				"y": -60,
+				"duration": 1,
+				"char": "gf-redoki",
+				"ease": "linear"
+			},
+			"name": "Camera Follow",
+			"time": 39272.7272727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"ease": "sine",
+					"zoom": 1,
+					"easeDir": "Out",
+					"mode": "stage"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "sineOut",
+				"mode": "stage",
+				"zoom": 1
+			},
+			"name": "Zoom Camera",
+			"time": 39272.7272727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"ease": "sine",
+					"zoom": 1.1,
+					"easeDir": "Out",
+					"mode": "stage"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "sineOut",
+				"mode": "stage",
+				"zoom": 1.1
+			},
+			"name": "Zoom Camera",
+			"time": 39549.3181818181
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -340,
+					"duration": 1,
+					"y": -60,
+					"char": 2,
+					"ease": "linear",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": -340,
+				"y": -60,
+				"duration": 1,
+				"char": "gf-redoki",
+				"ease": "linear"
+			},
+			"name": "Camera Follow",
+			"time": 39553
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -340,
+					"duration": 1,
+					"y": -60,
+					"char": 2,
+					"ease": "linear",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": -340,
+				"y": -60,
+				"duration": 1,
+				"char": "gf-redoki",
+				"ease": "linear"
+			},
+			"name": "Camera Follow",
+			"time": 39818.1818181818
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"ease": "sine",
+					"zoom": 1.2,
+					"easeDir": "Out",
+					"mode": "stage"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "sineOut",
+				"mode": "stage",
+				"zoom": 1.2
+			},
+			"name": "Zoom Camera",
+			"time": 39818.1818181818
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": 310,
+					"duration": 4,
+					"y": -60,
+					"char": 2,
+					"ease": "INSTANT",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": 310,
+				"y": -60,
+				"duration": 4,
+				"char": "gf-redoki",
+				"ease": "INSTANT"
+			},
+			"name": "Camera Follow",
+			"time": 40090.9090909091
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"ease": "sine",
+					"zoom": 1.1,
+					"easeDir": "Out",
+					"mode": "stage"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "sineOut",
+				"mode": "stage",
+				"zoom": 1.1
+			},
+			"name": "Zoom Camera",
+			"time": 40352
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"ease": "sine",
+					"zoom": 1,
+					"easeDir": "Out",
+					"mode": "stage"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "sineOut",
+				"mode": "stage",
+				"zoom": 1
+			},
+			"name": "Zoom Camera",
+			"time": 40636.0909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"ease": "sine",
+					"zoom": 0.9,
+					"easeDir": "Out",
+					"mode": "stage"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "sineOut",
+				"mode": "stage",
+				"zoom": 0.9
+			},
+			"name": "Zoom Camera",
+			"time": 40908.2954545455
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -40,
+					"duration": 6,
+					"y": -90,
+					"char": 2,
+					"ease": "smoothStep",
+					"easeDir": "InOut"
+				},
+				"vsKind": "FocusCamera",
+				"x": -40,
+				"y": -90,
+				"duration": 6,
+				"char": "gf-redoki",
+				"ease": "smoothStepInOut"
+			},
+			"name": "Camera Follow",
+			"time": 40909.0909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"rate": 4,
+					"offset": 0,
+					"intensity": 0.6
+				},
+				"vsKind": "SetCameraBop",
+				"intensity": 0.6,
+				"rate": 4
+			},
+			"name": "Camera Bop",
+			"time": 41318.1818181818
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"rate": 1,
+					"offset": 0,
+					"intensity": 0.6
+				},
+				"vsKind": "SetCameraBop",
+				"intensity": 0.6,
+				"rate": 1
+			},
+			"name": "Camera Bop",
+			"time": 43500
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"ease": "smoothStep",
+					"zoom": 0.9,
+					"easeDir": "Out",
+					"mode": "stage"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "smoothStepOut",
+				"mode": "stage",
+				"zoom": 0.9
+			},
+			"name": "Zoom Camera",
+			"time": 43636.3636363636
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": 0,
+					"duration": 4,
+					"y": 0,
+					"char": 1,
+					"ease": "CLASSIC",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 43636.3636363636
+		},
+		{
+			"arguments": {
+				"trans": true,
+				"anim": "sayo"
+			},
+			"name": "SayoriNote",
+			"time": 43636.3636363636
+		},
+		{
+			"arguments": {
+				"trans": false,
+				"anim": "sayo"
+			},
+			"name": "SayoriNote",
+			"time": 47454.5454545454
+		},
+		{
+			"arguments": {
+				"trans": true,
+				"anim": "bf-redoki"
+			},
+			"name": "SayoriNote",
+			"time": 48000
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 0
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 48000
+		},
+		{
+			"arguments": {
+				"trans": false,
+				"anim": "bf-redoki"
+			},
+			"name": "SayoriNote",
+			"time": 51818.1818181818
+		},
+		{
+			"arguments": {
+				"trans": true,
+				"anim": "cow"
+			},
+			"name": "SayoriNote",
+			"time": 52363.6363636364
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 1
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 52363.6363636364
+		},
+		{
+			"arguments": {
+				"trans": false,
+				"anim": "cow"
+			},
+			"name": "SayoriNote",
+			"time": 56181.8181818182
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 0
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 56727.2727272727
+		},
+		{
+			"arguments": {
+				"trans": true,
+				"anim": "gf-redoki"
+			},
+			"name": "SayoriNote",
+			"time": 56727.2727272727
+		},
+		{
+			"arguments": {
+				"trans": false,
+				"anim": "gf-redoki"
+			},
+			"name": "SayoriNote",
+			"time": 60545.4545454545
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 1
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 61090.9090909091
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 0
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 65454.5454545455
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 1
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 69818.1818181818
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"char": 0
+				},
+				"vsKind": "FocusCamera",
+				"x": 0,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "CLASSIC"
+			},
+			"name": "Camera Follow",
+			"time": 74181.8181818182
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"rate": 2,
+					"offset": 0,
+					"intensity": 0.8
+				},
+				"vsKind": "SetCameraBop",
+				"intensity": 0.8,
+				"rate": 2
+			},
+			"name": "Camera Bop",
+			"time": 78409.0909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -150,
+					"duration": 4,
+					"y": 0,
+					"char": 1,
+					"ease": "INSTANT",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": -150,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "INSTANT"
+			},
+			"name": "Camera Follow",
+			"time": 78545.4545454545
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 16,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "smootherStep",
+					"zoom": 1,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 16,
+				"ease": "smootherStepIn",
+				"mode": "direct",
+				"zoom": 1
+			},
+			"name": "Zoom Camera",
+			"time": 78545.4545454545
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.05,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.05
+			},
+			"name": "Zoom Camera",
+			"time": 80727.2727272727
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.1,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.1
+			},
+			"name": "Zoom Camera",
+			"time": 80997.1363636364
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.15,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.15
+			},
+			"name": "Zoom Camera",
+			"time": 81269.8636363637
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.2,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.2
+			},
+			"name": "Zoom Camera",
+			"time": 81542.5909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.25,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.25
+			},
+			"name": "Zoom Camera",
+			"time": 81826.6818181819
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.3,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.3
+			},
+			"name": "Zoom Camera",
+			"time": 82099.4090909091
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.35,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.35
+			},
+			"name": "Zoom Camera",
+			"time": 82383.5
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.4,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.4
+			},
+			"name": "Zoom Camera",
+			"time": 82656.2272727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 0.9,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 0.9
+			},
+			"name": "Zoom Camera",
+			"time": 82903.1363636364
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 16,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "smootherStep",
+					"zoom": 1,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 16,
+				"ease": "smootherStepIn",
+				"mode": "direct",
+				"zoom": 1
+			},
+			"name": "Zoom Camera",
+			"time": 82909.0909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": 150,
+					"duration": 4,
+					"y": 0,
+					"char": 0,
+					"ease": "INSTANT",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": 150,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "INSTANT"
+			},
+			"name": "Camera Follow",
+			"time": 82909.0909090909
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.05,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.05
+			},
+			"name": "Zoom Camera",
+			"time": 85090.9090909091
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.1,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.1
+			},
+			"name": "Zoom Camera",
+			"time": 85363.6363636364
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.15,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.15
+			},
+			"name": "Zoom Camera",
+			"time": 85633.5000000001
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.2,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.2
+			},
+			"name": "Zoom Camera",
+			"time": 85906.2272727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.25,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.25
+			},
+			"name": "Zoom Camera",
+			"time": 86190.3181818183
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.3,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.3
+			},
+			"name": "Zoom Camera",
+			"time": 86463.0454545455
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.35,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.35
+			},
+			"name": "Zoom Camera",
+			"time": 86747.1363636364
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.4,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.4
+			},
+			"name": "Zoom Camera",
+			"time": 87000
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -150,
+					"duration": 4,
+					"y": 0,
+					"char": 1,
+					"ease": "INSTANT",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": -150,
+				"y": 0,
+				"duration": 4,
+				"char": "sayori-redoki",
+				"ease": "INSTANT"
+			},
+			"name": "Camera Follow",
+			"time": 87272.7272727272
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 0.9,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 0.9
+			},
+			"name": "Zoom Camera",
+			"time": 87272.7272727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 16,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "smootherStep",
+					"zoom": 1,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 16,
+				"ease": "smootherStepIn",
+				"mode": "direct",
+				"zoom": 1
+			},
+			"name": "Zoom Camera",
+			"time": 87272.7272727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"rate": 4,
+					"offset": 0,
+					"intensity": 0.8
+				},
+				"vsKind": "SetCameraBop",
+				"intensity": 0.8,
+				"rate": 4
+			},
+			"name": "Camera Bop",
+			"time": 89318.1818181818
+		},
+		{
+			"arguments": {
+				"visible": true,
+				"anim": "rain"
+			},
+			"name": "SayoriTable",
+			"time": 89454.5454545454
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"rate": 2,
+					"offset": 0,
+					"intensity": 0.8
+				},
+				"vsKind": "SetCameraBop",
+				"intensity": 0.8,
+				"rate": 2
+			},
+			"name": "Camera Bop",
+			"time": 91500
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 0.9,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 0.9
+			},
+			"name": "Zoom Camera",
+			"time": 91633.8636363637
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -30,
+					"duration": 4,
+					"y": 0,
+					"char": 0,
+					"ease": "INSTANT",
+					"easeDir": "In"
+				},
+				"vsKind": "FocusCamera",
+				"x": -30,
+				"y": 0,
+				"duration": 4,
+				"char": "bf-redoki",
+				"ease": "INSTANT"
+			},
+			"name": "Camera Follow",
+			"time": 91636.3636363636
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 16,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "smootherStep",
+					"zoom": 1,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 16,
+				"ease": "smootherStepIn",
+				"mode": "direct",
+				"zoom": 1
+			},
+			"name": "Zoom Camera",
+			"time": 91636.3636363636
+		},
+		{
+			"arguments": {
+				"visible": false,
+				"anim": "rain"
+			},
+			"name": "SayoriTable",
+			"time": 91636.3636363636
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.05,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.05
+			},
+			"name": "Zoom Camera",
+			"time": 93796.6590909091
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.1,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.1
+			},
+			"name": "Zoom Camera",
+			"time": 94066.5227272728
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.1,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.1
+			},
+			"name": "Zoom Camera",
+			"time": 94339.2500000001
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.2,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.2
+			},
+			"name": "Zoom Camera",
+			"time": 94611.9772727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.25,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.25
+			},
+			"name": "Zoom Camera",
+			"time": 94896.0681818183
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 1,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.3,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 1,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.3
+			},
+			"name": "Zoom Camera",
+			"time": 95168.7954545455
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.35,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.35
+			},
+			"name": "Zoom Camera",
+			"time": 95454.5454545454
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 4,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "INSTANT",
+					"zoom": 1.4,
+					"easeDir": "In",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 4,
+				"ease": "INSTANT",
+				"mode": "direct",
+				"zoom": 1.4
+			},
+			"name": "Zoom Camera",
+			"time": 95727.2727272727
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"x": -260,
+					"duration": 32,
+					"y": -100,
+					"char": 0,
+					"ease": "smootherStep",
+					"easeDir": "InOut"
+				},
+				"vsKind": "FocusCamera",
+				"x": -260,
+				"y": -100,
+				"duration": 32,
+				"char": "bf-redoki",
+				"ease": "smootherStepInOut"
+			},
+			"name": "Camera Follow",
+			"time": 95992.2272727273
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"duration": 40,
+					"widescreenScaleX": 0,
+					"widescreenScaleY": 0,
+					"ease": "smootherStep",
+					"zoom": 0.55,
+					"easeDir": "InOut",
+					"mode": "direct"
+				},
+				"vsKind": "ZoomCamera",
+				"duration": 40,
+				"ease": "smootherStepInOut",
+				"mode": "direct",
+				"zoom": 0.55
+			},
+			"name": "Zoom Camera",
+			"time": 96000
+		},
+		{
+			"arguments": {
+				"vsValue": {
+					"rate": 8,
+					"offset": 0,
+					"intensity": 0.8
+				},
+				"vsKind": "SetCameraBop",
+				"intensity": 0.8,
+				"rate": 8
+			},
+			"name": "Camera Bop",
+			"time": 100227.272727273
+		}
+	]
+}

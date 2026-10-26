@@ -1,14 +1,14 @@
 {
     "songData": [
         {
-			"song": "Rain Clouds (Re-Takeover)",
+			"song": "rain-clouds",
             "bpm": 110,
             "icon": "sayori-redoki",
             "artist": "Mochoco",
             "album": "sayori"
 		},
 		{
-			"song": "My Confession (Re-Takeover)",
+			"song": "my-confession",
             "bpm": 170,
             "icon": "sayori-redoki",
             "artist": "Noichi",

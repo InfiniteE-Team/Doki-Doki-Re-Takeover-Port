@@ -1,0 +1,14 @@
+{
+	"speed": 2.4,
+	"stage": "clubRoom",
+	"instPrefix": null,
+	"vocPrefix": null,
+	"bpm": 110,
+	"needVoices": true,
+	"song": "Rain Clouds (Re-Takeover)",
+	"vocs": [
+		"",
+		"Voices-bf-redoki",
+		"Voices-sayori-redoki"
+	]
+}

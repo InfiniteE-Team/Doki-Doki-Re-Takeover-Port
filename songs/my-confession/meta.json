@@ -1,0 +1,14 @@
+{
+	"instPrefix": null,
+	"vocPrefix": null,
+	"song": "My Confession (Re-Takeover)",
+	"vocs": [
+		"",
+		"Voices-bf-redoki",
+		"Voices-sayori-redoki"
+	],
+	"stage": "clubRoom",
+	"speed": 2.7,
+	"bpm": 170,
+	"needVoices": true
+}
